@@ -13,13 +13,13 @@
 
   </nuxt-link>
 </template>
-<script setup>
+<script setup >
 const { defaultTransition } = useTailwindConfig()
 
 const props = defineProps({
   active: {
       type: Boolean,
-      default: false
+      default: false,
   }
 })
 
